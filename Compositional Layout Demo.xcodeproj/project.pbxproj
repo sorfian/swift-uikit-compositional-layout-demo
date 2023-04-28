@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		D6CCF78729E4386F009566A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CCF78629E4386F009566A3 /* AppDelegate.swift */; };
 		D6CCF78929E4386F009566A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CCF78829E4386F009566A3 /* SceneDelegate.swift */; };
-		D6CCF78B29E4386F009566A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CCF78A29E4386F009566A3 /* ViewController.swift */; };
 		D6CCF78E29E4386F009566A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6CCF78C29E4386F009566A3 /* Main.storyboard */; };
 		D6CCF79029E43870009566A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6CCF78F29E43870009566A3 /* Assets.xcassets */; };
 		D6CCF79329E43870009566A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6CCF79129E43870009566A3 /* LaunchScreen.storyboard */; };
+		D6CCF79B29E4391D009566A3 /* DoodleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CCF79A29E4391D009566A3 /* DoodleCollectionViewCell.swift */; };
+		D6CCF79F29E43AA3009566A3 /* DoodleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CCF79E29E43AA3009566A3 /* DoodleViewController.swift */; };
+		D6CCF7A129E44375009566A3 /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CCF7A029E44375009566A3 /* SectionHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D6CCF78329E4386F009566A3 /* Compositional Layout Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Compositional Layout Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6CCF78629E4386F009566A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6CCF78829E4386F009566A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D6CCF78A29E4386F009566A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D6CCF78D29E4386F009566A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D6CCF78F29E43870009566A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6CCF79229E43870009566A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6CCF79429E43870009566A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6CCF79A29E4391D009566A3 /* DoodleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoodleCollectionViewCell.swift; sourceTree = "<group>"; };
+		D6CCF79E29E43AA3009566A3 /* DoodleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoodleViewController.swift; sourceTree = "<group>"; };
+		D6CCF7A029E44375009566A3 /* SectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				D6CCF78629E4386F009566A3 /* AppDelegate.swift */,
 				D6CCF78829E4386F009566A3 /* SceneDelegate.swift */,
-				D6CCF78A29E4386F009566A3 /* ViewController.swift */,
 				D6CCF78C29E4386F009566A3 /* Main.storyboard */,
 				D6CCF78F29E43870009566A3 /* Assets.xcassets */,
 				D6CCF79129E43870009566A3 /* LaunchScreen.storyboard */,
 				D6CCF79429E43870009566A3 /* Info.plist */,
+				D6CCF79A29E4391D009566A3 /* DoodleCollectionViewCell.swift */,
+				D6CCF79E29E43AA3009566A3 /* DoodleViewController.swift */,
+				D6CCF7A029E44375009566A3 /* SectionHeaderView.swift */,
 			);
 			path = "Compositional Layout Demo";
 			sourceTree = "<group>";
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6CCF78B29E4386F009566A3 /* ViewController.swift in Sources */,
 				D6CCF78729E4386F009566A3 /* AppDelegate.swift in Sources */,
+				D6CCF79B29E4391D009566A3 /* DoodleCollectionViewCell.swift in Sources */,
+				D6CCF7A129E44375009566A3 /* SectionHeaderView.swift in Sources */,
 				D6CCF78929E4386F009566A3 /* SceneDelegate.swift in Sources */,
+				D6CCF79F29E43AA3009566A3 /* DoodleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
